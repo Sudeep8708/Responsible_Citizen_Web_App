@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Responsible Citizen</title>
+    <link rel = 'stylesheet' href = 'design.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    </div>
+    </div>
+    <nav class = 'navbar'>
+        <ul>
+            <li>Educate</li>
+            <li>About Me!</li>
+            <li>Dashboard</li>
+        </ul>
+    </nav>
+
+    <div class = 'main'>
+        <p class = 'head'>  #Responsible Citizen  </p>
+        <p class ='msg'>"Never doubt that a small group of thoughtful, committed citizens can change the world;<br> Indeed, it is the only thing that ever has..."</p>
+    </div>
+    
+    <div class = 'todo'>
+    <p class = 'day' ><%=msg[0].day%></p>
+    <p id = 'title'>Hello &#x1F44D;, The Tasks which we have planned out for you to perform today are:</p>
+        <%msg.forEach( function(doc) {%>
+        <div class = 'element'>
+            <input type = 'checkbox'/>
+            <p><%=doc.task%></p>
+            <span class = 'coin'><%=doc.coins%></span>
+        </div><%});%>
+    </div>
+       <div class = lastdiv>
+        <% var i=1;%>
+        <%msg.forEach( function(doc){%>
+            <div class = 'brief'>
+                <span id = 'digit'><%=i++%></span>
+            <h2 id = 'task'><%=doc.task%></h2>
+                <p class = 'description' style = 'font-size:15px;'><%=doc.uses%></p>
+                <a href = #>Read More</a>
+        </div><%});%>
+    </div> 
+    <div class = 'modal'>
+        <div class = 'modal-content'>
+            <span class = "close">&times;</span><br><br>
+            <p class = 'congrats'>Congratulations !&#129395; on Completing the Tasks! You had unlocked your <span class = 'badge' style = 'color:red;'></span>Badge !</p>
+            <img src = "#" alt = 'A Medal' width='250px' height='250px' style = 'margin-left:300px;' id ='image'>
+            <p style = 'font-weight:bold'>Thanks for taking time in serving the environment ! "Feed the Planet and It Will Nourish You."</p>
+            <button type = 'button' id='btn'>To move onto further tasks, Click Here!</button>
+            <button id = 'cancel'type = 'button' >Cancel</button>
+        </div>
+    </div>
+</body>
+<script src = 'main.js' type = 'text/javascript'></script>
+</html>

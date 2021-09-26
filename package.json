@@ -1,0 +1,16 @@
+{
+  "name": "resp_citizen_web_app",
+  "version": "1.0.0",
+  "description": "This is a web application which is social,friendly,game kind of app toprotect the environment",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "nodemon": "^2.0.13"
+  }
+}
