@@ -9,7 +9,7 @@ server.use(bodyparser.urlencoded({ extended:false }));
 server.set('view engine','ejs');
 
 var db,collection;
-var day = 'Day 1';
+var day = 'Day 1';    //Initially set to Day 1
 var numdigit;
 
 //Connectinng to the Database//
@@ -26,20 +26,19 @@ MongoClient.connect(url, (error,client) =>{
   console.log("Connection Established !");
 });
 
+//The Below is the general route, that is whenever someone requests in root '/' url, these processes will be carried out.
+
 server.get('/', (req,res) =>{
 
-  
-
-  if(numdigit>3){
+  if(numdigit>3){                           //Checks whether all the days are done.
     res.setHeader('content-type','text/html');
     res.send('<h2>Congratulations! You had completed all the levels ! <br><br>Thank you for joining us to protect the environment! Hope you loved it and learnt a lot from this ! <br> We would like you to not stop here, but continue contributing to protect the Earth ! Thanks !! </h2>');
   }
   else{
 
-
     var arr  =  collection.find({$and:[{status:'pending'},{day:day}]},{projection:{status:false,_id:false}}).toArray();
     arr.then( (msg) =>{
-      var len = msg.length;
+     var len = msg.length;
     res.render('main',{msg:msg});
     server.use( express.static('public') );
 
@@ -49,6 +48,7 @@ server.get('/', (req,res) =>{
   }
 });
 
+//This Route is written to change the day, after completion of prev day tasks.
 
 server.get('/change', (req,res) =>{
 
@@ -61,7 +61,6 @@ server.get('/change', (req,res) =>{
   }
   else{
   numdigit+=1;
-  console.log("Day "+ numdigit, typeof("Day "+ numdigit));
   day = "Day "+ numdigit;
   res.redirect('/');
   }
