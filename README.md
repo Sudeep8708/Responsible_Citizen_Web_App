@@ -1,5 +1,11 @@
 # Responsible_Citizen_Web_App
+
 This application lets you to protect your environment/locality in a fun, social, playful way ! Providing you with small tasks every day, Do complete all tasks and earn your badges, becoming a Responsible Citizen.
+
+"Never doubt that a small group of thoughtful, committed citizens can change the world;
+Indeed, it is the only thing that ever has..."
+
+Note: This is a project submitted for the hackathon "Backyard-Hacks 2.0" conducted by MLH.
 
 The Dependencies that I have used to build this project are:
 
@@ -13,7 +19,11 @@ The Dependencies that I have used to build this project are:
 
 "mongodb": "^4.1.0"
 
-Seems good? Do you want to give a try? THEN,
+
+Introduction:
+We are currently facing the most critical environmental issues in human history. Our climate, planet, lives, and future as a civilization are all at risk. While the magnitude of that thought can be extremely overwhelming, don’t allow yourself to feel helpless, not knowing where to begin. Not to worry..Try this Responsible Citi€zen Web Application.
+Here, we request you to perform some tasks(intended to help the environment) on a daily basis..So, at the end of the day, if you're done with the tasks, you can get badges and coins too.
+By completing all the daily tasks overall,
 
 First clone this to your local machine using git clone -u url
 
