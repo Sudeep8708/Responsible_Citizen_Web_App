@@ -42,5 +42,18 @@ Then drive to the folder and run the script.js file using ```node script.js```.
 Visit to the url you had specified and the port in browser.
 
 Done !! That's it!
+Below are some of the pics of this project..
 
-Some picutures of this project are given below:
+#The Main page of the project:
+
+![res_pic_](https://user-images.githubusercontent.com/81461977/138111202-5e12807c-8e6d-46ff-b2e5-3b4f1ed0e7cc.png)
+
+The Tasks layout:
+
+![res_pic_2](https://user-images.githubusercontent.com/81461977/138111223-deb07165-fa50-4efa-a6eb-a4b4bec2ca14.png)
+
+The Benefits of accomplishing the particlular task..
+
+[res_pic_3](https://user-images.githubusercontent.com/81461977/138111227-9011a44c-412e-4613-b064-772f4f5bc985.png)
+
+
