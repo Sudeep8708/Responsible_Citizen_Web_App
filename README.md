@@ -25,20 +25,22 @@ We are currently facing the most critical environmental issues in human history.
 Here, we request you to perform some tasks(intended to help the environment) on a daily basis..So, at the end of the day, if you're done with the tasks, you can get badges and coins too.
 By completing all the daily tasks overall,
 
-First clone this to your local machine using git clone -u url
+First clone this to your local machine using ```git clone -u url```
 
-Open command line, drive to the cloned folder and type npm init to set up a new or existing npm package in the directory. or npm int -y to set default values to the package.json file.
+Open command line, drive to the cloned folder and type ```npm init```  to set up a new or existing npm package in the directory. or ```npm int -y``` to set default values to the package.json file.
 
-Then install the necessary dependencies mentioned above using npm i <dep_name>
+Then install the necessary dependencies mentioned above using ```npm i <dep_name>```
 
 Finally, create a .env file to store Global Variables like Dbname,Port and some like the (key = value) way.
 
 Download and Install MongoDB from their official site.(i.e the Community Server)
 
-Then after all the installations, open a new terminal and type mongod to start the monogdb server.
+Then after all the installations, open a fresh new terminal and type ```mongod``` to start the monogdb server.
 
-Then drive to the folder and run the script.js file using node script.js.
+Then drive to the folder and run the script.js file using ```node script.js```.
 
 Visit to the url you had specified and the port in browser.
 
-Done !!
+Done !! That's it!
+
+Some picutures of this project are given below:
