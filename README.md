@@ -25,7 +25,8 @@ The Dependencies that I have used to build this project are:
 We are currently facing the most critical environmental issues in human history. Our climate, planet, lives, and future as a civilization are all at risk. While the magnitude of that thought can be extremely overwhelming, don’t allow yourself to feel helpless, not knowing where to begin? Don't worry..Then you could try out Responsible Citizen Web Application.
 
 Here, we provide you with some simple daily tasks(that conform to environmental protection requirements) to accomplish. So, if at the end of the day, if you're done with all the tasks, you can unlock badges accordingly and collect coins too (People are more interested to do a certain activity when there is a reward system). At the same time, this app also Educates you about some questions regarding the tasks like 'Why do you need to perform that? In What way the tasks contribute in protecting the environment/locality..!'
-So, as you're educated about the measures which 'you' can make, you may also intend to educate your friends/family about the tasks and advice them to perfrom too then, that may result in mass changes to your locality.You can also share the Badges you've acquired in this app with your friends and insist even them to make their contributions to the environment.
+
+So, as you're educated about the measures which 'you' can make, you may also intend to educate your friends/family about the tasks and advice them to perform too. then, that may result in mass changes to your locality.You can also share the Badges you've acquired in this app with your friends and insist even them to make their contributions to the environment.
 
 Below are some of the pics of this project.
 
