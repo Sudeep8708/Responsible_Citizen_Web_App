@@ -20,30 +20,14 @@ The Dependencies that I have used to build this project are:
 "mongodb": "^4.1.0"
 
 
-Introduction:
-We are currently facing the most critical environmental issues in human history. Our climate, planet, lives, and future as a civilization are all at risk. While the magnitude of that thought can be extremely overwhelming, don’t allow yourself to feel helpless, not knowing where to begin. Not to worry..Try this Responsible Citizen Web Application.
-Here, we request you to perform some tasks(intended to help the environment) on a daily basis..So, at the end of the day, if you're done with all the tasks, you can unlock badges accordingly and collect coins too. At the same time, this app also educates you about 'Why do you need to perform that? In What way are you contributing to the environment!'
+**Introduction:**
 
-So,if your interested in checking this out...Follow below steps to get it to your pc:
+We are currently facing the most critical environmental issues in human history. Our climate, planet, lives, and future as a civilization are all at risk. While the magnitude of that thought can be extremely overwhelming, don’t allow yourself to feel helpless, not knowing where to begin? Don't worry..Then you could try out Responsible Citizen Web Application.
 
-First clone this to your local machine using ```git clone -u url```
+Here, we provide you with some simple daily tasks(that conform to environmental protection requirements) to accomplish. So, if at the end of the day, if you're done with all the tasks, you can unlock badges accordingly and collect coins too (People are more interested to do a certain activity when there is a reward system). At the same time, this app also Educates you about some questions regarding the tasks like 'Why do you need to perform that? In What way the tasks contribute in protecting the environment/locality..!'
+So, as you're educated about the measures which 'you' can make, you may also intend to educate your friends/family about the tasks and advice them to perfrom too then, that may result in mass changes to your locality.You can also share the Badges you've acquired in this app with your friends and insist even them to make their contributions to the environment.
 
-Open command line, drive to the cloned folder and type ```npm init```  to set up a new or existing npm package in the directory. or ```npm int -y``` to set default values to the package.json file.
-
-Then install the necessary dependencies mentioned above using ```npm i <dep_name>```
-
-Finally, create a .env file to store Global Variables like Dbname,Port and some like the (key = value) way.
-
-Download and Install MongoDB from their official site.(i.e the Community Server)
-
-Then after all the installations, open a fresh new terminal and type ```mongod``` to start the monogdb server.
-
-Then drive to the folder and run the script.js file using ```node script.js```.
-
-Visit to the url you had specified and the port in browser.
-
-Done !! That's it!
-Below are some of the pics of this project..
+Below are some of the pics of this project.
 
 #The Main page of the project:
 
