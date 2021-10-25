@@ -21,9 +21,10 @@ The Dependencies that I have used to build this project are:
 
 
 Introduction:
-We are currently facing the most critical environmental issues in human history. Our climate, planet, lives, and future as a civilization are all at risk. While the magnitude of that thought can be extremely overwhelming, don’t allow yourself to feel helpless, not knowing where to begin. Not to worry..Try this Responsible Citi€zen Web Application.
-Here, we request you to perform some tasks(intended to help the environment) on a daily basis..So, at the end of the day, if you're done with the tasks, you can get badges and coins too.
-By completing all the daily tasks overall,
+We are currently facing the most critical environmental issues in human history. Our climate, planet, lives, and future as a civilization are all at risk. While the magnitude of that thought can be extremely overwhelming, don’t allow yourself to feel helpless, not knowing where to begin. Not to worry..Try this Responsible Citizen Web Application.
+Here, we request you to perform some tasks(intended to help the environment) on a daily basis..So, at the end of the day, if you're done with all the tasks, you can unlock badges accordingly and collect coins too. At the same time, this app also educates you about 'Why do you need to perform that? In What way are you contributing to the environment!'
+
+So,if your interested in checking this out...Follow below steps to get it to your pc:
 
 First clone this to your local machine using ```git clone -u url```
 
