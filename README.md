@@ -42,9 +42,15 @@ The Tasks layout:
 ![res_pic_2](https://user-images.githubusercontent.com/81461977/138111223-deb07165-fa50-4efa-a6eb-a4b4bec2ca14.png)
 
 
+A picture of a badge which you could earn after completing the respective day's tasks.
+
+![badge](https://user-images.githubusercontent.com/81461977/138677122-44b8fda6-5d45-4eb8-98b6-8b6d8f1aaf66.png)
+
+
 The Benefits of accomplishing the particlular task..
 
 
 ![res_pic_3](https://user-images.githubusercontent.com/81461977/138111227-9011a44c-412e-4613-b064-772f4f5bc985.png)
+
 
 
